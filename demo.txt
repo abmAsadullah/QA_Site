@@ -1,10 +1,10 @@
 Navigation:
-Home QA Practise Tutorial About
+Home QA Article Test About
 
 
 
 Home: All updates
 QA:
-Practise:
-Tutorial:
+Article:
+Test:
 About:

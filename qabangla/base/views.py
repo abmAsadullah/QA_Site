@@ -28,3 +28,9 @@ def home(request):
 def about(request):
 	return render(request, 'base/about.html', {'title': 'About'})
 
+def article(request):
+	return render(request, 'base/article.html', {'title': 'Article'})
+
+def test(request):
+	return render(request, 'base/test.html', {'title': 'Test'})
+

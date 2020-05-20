@@ -1,10 +1,22 @@
 Navigation:
-Home QA Article Test About
+Home QA Articles Tests About
 
 
 
 Home: All updates
 QA:
-Article:
-Test:
+Articles:
+Tests:
 About:
+
+
+
+git cmd:
+=======
+
+=======
+git status
+git add .
+git commit -m "Messge of commit"
+git log --oneline
+git push -u origin master

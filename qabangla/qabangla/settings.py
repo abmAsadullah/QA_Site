@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'tst.apps.TstConfig',
+    'article.apps.ArticleConfig',
     'qa.apps.QaConfig',
     'base.apps.BaseConfig',
     'django.contrib.admin',

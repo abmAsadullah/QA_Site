@@ -1,36 +1,19 @@
 from django.shortcuts import render
-
-
-posts = [
-	{
-		'author' : 'CoreyMS',
-		'title' : 'Question 1',
-		'content' : 'First Question content',
-		'date_posted' : 'May 14, 2020'
-	},
-	{
-		'author' : 'Saad',
-		'title' : 'Question 2',
-		'content' : 'Second Question content',
-		'date_posted' : 'May 15, 2020'
-	},
-]
+from django.utils import timezone
+from qa.models import Question as Post
+from tst.models import Test
+from article.models import Article
 
 
 
 def home(request):
+	#Want to sow post according to timezone
+	# Post = Question or Test or Article
 	context = {
-		'posts': posts
+		'posts': Post.objects.all()
 	}
-	return render(request, 'qa/qapage.html', context)
-#	return render(request, 'base/home.html', context)
+	return render(request, 'base/home.html', context)
 
 def about(request):
 	return render(request, 'base/about.html', {'title': 'About'})
-
-def article(request):
-	return render(request, 'base/article.html', {'title': 'Article'})
-
-def test(request):
-	return render(request, 'base/test.html', {'title': 'Test'})
 

@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import Post
+from .models import Question
 
 
 def qa(request):
 	cont = {
-		'posts': Post.objects.all()
+		'questions': Question.objects.all()
 	}
 	return render(request, 'qa/qapage.html', cont)

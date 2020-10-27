@@ -1,3 +1,43 @@
+Bangla QA Site
+Nav:
+	* Home
+	* QA
+	* AQ
+	* Blog
+	* About
+
+	* Notification
+	* Message
+	* Profile
+
+#QA:
+	* Question
+	* Answer
+	* Openion
+	* Feedback
+
+#AQ [Contributed by top members]:
+	** Take a Quez
+	* Question
+	* Option/Text
+	* Previous/Next/Submit
+	* Result
+
+#Blog:
+	* Post
+	* Feedback
+	* Comment
+
+#About:
+	********* R U L E S *********
+###
+#Profile
+
+	
+
+
+
+
 Navigation:
 Home QA Articles Tests About
 
